@@ -4,7 +4,7 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/nhentai", //Support Server Link
-  Token: process.env.Token || "MTA4MTg5NTAxMzA1Njc4MjM1Nw.G3Gtns.aO3hezgx_4wZ59arrhvb2e5vCONa3Ar03muc-s", //Discord Bot Token
+  Token: process.env.Token || "-", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "1081895013056782357", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "MudnV_tT4afup6w0r0JDrZwBSiULVvCp", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
